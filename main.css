@@ -1,0 +1,134 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+form {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input {
+    /* background-color: rgb(220, 239, 255); */
+    border-radius: 10px;
+    font-size: 1.3em;
+    
+}
+
+::placeholder {
+    color: rgb(161, 161, 161);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button {
+    width: 20.4vw;
+    border-radius: 4px;
+}
+
+#container {
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: lightgrey;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* padding-bottom: 30px; */
+    display: flex;
+    flex-direction: column;
+}
+
+#container, h1{
+    margin-bottom: 0;
+}
+
+#container, h5{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#email {
+    margin-bottom: 15px;
+}
+
+#password-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+#password-text, h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#password-text, a {
+    margin-top: 22.178;
+    margin-bottom: 22.178; 
+    font-size: .9em;   
+}
+
+input {
+    width: 20vw;
+    height: 30px;
+    border-radius: 2px;
+}
+
+#continue-button {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    height: 30px;
+    background-color: #f7da7a;
+    font-size: 1.05em
+}
+
+
+#account-button {
+    margin-left: 28px;
+    height: 30px;
+    font-size: 1.05em
+}
+
+#need-help {
+    margin-bottom: 10px;
+}
+
+ #new, h5 {
+     /* margin-top: 10px;
+     margin-bottom: 10px; */
+     /* margin-left: 65px; */
+    color: rgb(161, 161, 161); 
+} 
+
+#new, h5 span {
+    background:#fff; 
+    padding:0 10px; 
+}
+
+footer {
+    height: 20vh;
+    width: 100vw;
+    border-top: solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#footer-links {
+    width: 18vw;
+    display: flex;
+    justify-content: space-around;
+}
