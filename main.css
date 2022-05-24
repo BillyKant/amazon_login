@@ -9,6 +9,16 @@ body {
 
 form {
     margin-top: 0;
+    
+}
+
+#sign-in h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#phoneormobile h5 {
+    margin-bottom: 10px;
 }
 
 a {
@@ -77,13 +87,18 @@ button {
 #password-text, a {
     margin-top: 22.178;
     margin-bottom: 22.178; 
+    margin-right: 2px;
     font-size: .9em;   
 }
 
 input {
     width: 20vw;
     height: 30px;
-    border-radius: 2px;
+    border-radius: 4px;
+}
+
+input:focus {
+    background-color: rgb(233, 245, 255);
 }
 
 #continue-button {
@@ -105,16 +120,10 @@ input {
     margin-bottom: 10px;
 }
 
- #new, h5 {
-     /* margin-top: 10px;
-     margin-bottom: 10px; */
-     /* margin-left: 65px; */
-    color: rgb(161, 161, 161); 
-} 
-
-#new, h5 span {
-    background:#fff; 
-    padding:0 10px; 
+#new {
+    margin-top: 10px;
+    margin-left: 85px;
+    margin-bottom: 8px;
 }
 
 footer {
@@ -131,4 +140,8 @@ footer {
     width: 18vw;
     display: flex;
     justify-content: space-around;
+}
+
+footer h5 {
+    margin-top: 25px;
 }
